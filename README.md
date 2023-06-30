@@ -1,13 +1,10 @@
-# asembler
-assmbler code written in c on a linux machine.
+# Assembler
+This program, written in C on a Linux machine, functions as an assembler code. Its purpose is to take assembly language code as input and convert it into machine code using a two-step process.
 
-this program receives assembly language code and converts it into machine code using two "runs".
+During the first run, the code traverses the file, searching for any errors and keeping a count of them. If any errors are detected, they are displayed on the screen.
 
-on the the first run the code goes thro the file and look for errors, counting them and prints them to the screen if any was found.
+In the second run, the code iterates over the assembly language code again, this time converting it into machine code.
 
-the second run goes over the code again and converts it into machine code.
+The "makefile" included in the project comprises a set of instructions that define how to compile, build, and link the software project. It specifies the target and its dependencies.
 
-the make file is a set of instructions that specify how to compile, build, and link a software project in the form of Target: dependencies.
-
-this code was written as an assignment at the Open University as part of the  system progreming course.
-final grade 98
+This code was developed as part of an assignment for the System Programming course at the Open University and received a final grade of 98.
